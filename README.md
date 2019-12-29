@@ -1,4 +1,6 @@
 # Plantilla-2-botones-2D
+Jugar:
+
 Plantilla 2 botones 2D para ejecutable para html 
 Jam:
 https://github.com/CycloPiStudio/Plantilla-2-botones-2D/tree/c73084b1255bfbfbad0fbb2210625a6b0def3168
