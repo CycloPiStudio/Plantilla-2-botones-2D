@@ -1,7 +1,7 @@
 # Plantilla-2-botones-2D
 Jugar: 
 
-https://cyclopistudio.github.io/CyloPi-Studio-Web/testing_2019/minotauro/minotauro.html
+https://cyclopistudio.github.io/CyloPi-Studio-Web/testing_2019/celular_2020/celular_2020.html
 
 Plantilla 2 botones 2D para ejecutable para html  Jam:
 https://github.com/CycloPiStudio/Plantilla-2-botones-2D/tree/c73084b1255bfbfbad0fbb2210625a6b0def3168
