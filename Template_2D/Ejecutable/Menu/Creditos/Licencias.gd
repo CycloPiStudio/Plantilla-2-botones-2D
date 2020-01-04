@@ -11,7 +11,12 @@ https://godotengine.org/
 Mecánicas: Plantilla Menún Cyclo Pi 
 https://github.com/CycloPiStudio/Plantilla_menu/tree/9ffee475129a19f4c1ab4760c7f2ecbce10f02af
 
-Música: 
+Música para Jam 4 bits:
+
+Cyclo Pi Studio
+https://beepbox.co/
+
+Música para paltilla: 
 "Tyrant" Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 4.0 
 License http://creativecommons.org/licenses/by/4.0/
