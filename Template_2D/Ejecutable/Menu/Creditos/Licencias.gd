@@ -34,3 +34,9 @@ https://github.com/CycloPi/2D-Azimutal/blob/228d0733df4844d20d62deeee7b5afd81544
 
 Fondo:
 https://pixabay.com/es/photos/estrellas-de-fondo-azul-photoshop-1436950/
+
+Fuentes:
+Fred Cre
+http://fredcre.free.fr/
+Game Over Cre 
+https://www.dafont.com/
