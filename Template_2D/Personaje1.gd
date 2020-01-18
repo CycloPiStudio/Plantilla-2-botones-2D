@@ -3,6 +3,8 @@ extends KinematicBody2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
+#var dr_vector
+var beam_shoot = preload("res://Ejecutable/Juego/Escenarios/Potenciadores/laser/beam_shoot/beam_bullet.tscn")
 var motion = Vector2()
 var velocidad  = 10000
 var mydelta
@@ -17,10 +19,20 @@ func _process(delta):
 	#¿por que se ha cambiao el fisic del proces?
 	#simulación gravedad
 #	motion.y += 4
+	var shoot = Input.is_action_just_pressed("disparo")
+#	var release_shoot = Input.is_action_just_released("disparo")
+	var release_shoot = Input.is_action_just_released("disparo") 
 
 # esto  no se que es, creo que by Bravo
 #	print ("angulo en radianes: " + str( motion.angle()))
-
+	
+	if shoot:#&& (get_node("beam_bullet") == null):
+		var beam_shoot_instance = beam_shoot.instance()
+		add_child(beam_shoot_instance)
+		beam_shoot_instance.position = $Position2D.position
+	
+	if release_shoot:
+		get_node("beam_bullet").queue_free()
 
 	#movimiento: poner valores a la velo lineal según entradas cruceta lateral
 	if Input.is_action_pressed("ui_right"):
